@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px;
+}
+.header {
+    margin-bottom: 20px;
+}
+.section {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.botao {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 20px;
+    
+}
+.btn {
+    width: 90px;
+    height: 5vh;
+    background-color: rgb(221, 221, 221);
+}
+.container {
+    border: 3px solid black;
+    padding: 10px;
+    
+}
